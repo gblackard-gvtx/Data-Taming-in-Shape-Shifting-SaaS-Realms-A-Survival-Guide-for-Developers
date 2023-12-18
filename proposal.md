@@ -1,50 +1,46 @@
 ### Titles: 
-- Data Taming in Shape-Shifting SaaS Realms: A Survival Guide for Devs
+- **Data Taming in Shape-Shifting SaaS Realms: A Survival Guide for Developers**
 
 ### Category: Community
 
 ### Duration: 30 minutes
 
 ## Audience:
-Python developers that are assuming a role in data engineering for SaaS product or for data engineers building custom tooling and extractions from SaaS product providers.
+This session targets Python developers taking on roles in SaaS product data engineering or building custom extractions from SaaS providers.
 
 ## Prerequisite knowledge for this session:
-Some familiarity with Python, third party libraries like requests and pandas.
+Familiarity with Python and third-party libraries like requests and pandas is recommended.
 
-## Description 1 :
-Many of the products we use today are SaaS based. This has made reporting, analytic and data aggregation more complex then ever. SaaS vendors tend to update APIs with little warning. Microservices have made data extraction daunting. Where do you start? What tools should you use? How do you get started? During this presentation I will discuss starting small, moving fast and about lessons I have learned during my career.
-
-## Description 2 :
+## Description:
 You work on a small project or maybe the compony you work for as partnered with a SaaS provider. You are tasked with extracting usage and client data from this system to be used down stream for analytics.
 Where do you start? What tools should you use? How do you get started?
 During this presentation I will discuss starting small, moving fast and about lessons I have learned during my career.
 
 ## Objectives:
-Attendees will leave with and better understanding of common issues with SaaS APIs, Tools that can be used implemented quickly to start extracting data, and a better understanding of best practices when working with SaaS API's for data.  
+Attendees will gain a better understanding of common issues with SaaS APIs, quick implementation tools for data extraction, and best practices when interfacing with SaaS APIs for data extraction.
+
 ## Detailed Abstract
 #### The Problems:
-All data is behind and API. The SaaS Provider my provide tooling for data extraction at a extra cost. API could be broken into Microservices requiring you to chain APIs together to get a full picture. SaaS provider are not always the best a communicating what they consider to be small updates.  API versions change as bugs are fixed, these changes my affect later versions. 
+Data resides behind APIs. SaaS providers may offer extraction tools at an additional cost. APIs might be fragmented into Microservices, necessitating chained API calls for comprehensive data retrieval. Communication lapses from SaaS providers regarding seemingly minor updates can disrupt workflows. API version changes, due to bug fixes, may impact subsequent versions.
 
 #### The Tools:
-There are lots of tools that can be used to set up data extraction pipeline. Some of the most popular are:
-- Apache Airflows
-- Apache NiFI
-Under the hood these tools consist of a Web server, a scheduler, a place to store state, a way queue up code, and a way to execute code.
-These tools take time to learn and set up. If you are working for a company they may require a lot of red tape.
-To move quickly we can create a simpler version of these tools with the following.
-- Server
-	- Linux or Windows
-	- On perm or cloud hosted like and EC2
-- Scheduler
-	- Chon
-	- Windows Task Scheduler
-- Tracking State
-	- SysLogHandler
-	- pywin32
-- Execution
-	- With both Cron or Windows Task Scheduler we will pass command line arguments to execute the python code.
-- Script
+We will explore existing tools and explore a minimum viable product (MVP) approach. The discussion will progress as we incorporate these tools with the evolving process.
 
 ### Getting Started
+This section comprises five key components:
+- **Project Structure**
+    - Overview of project layout, including config.json.
+- **Most Used Third-Party Libraries and their Significance**
+    - Delving into argparse, requests, and pandas, and highlighting how they can be used.
+- **Data Extraction and Validation**
+    - Advocating default values for the response object, employing dictionaries for defaults, key checking in JSON responses, and setting run arguments in the main function.
+- **Scheduling and Executing Pipeline**
+    - Guidance on scheduling Python extractions using Cron or Task Scheduler.
 
-
+### Outline
+- Introduction of speaker (2 Min)
+- Introduce the problem (2 Min)
+- Project Structure (3 min)
+- Most Used Third-Party Libraries and Why (3 min)
+- Data Extraction and Validation (18 min)
+- Scheduling and Executing Pipeline (5 min)
