@@ -43,6 +43,8 @@ To move quickly we can create a simpler version of these tools with the followin
 	- pywin32
 - Execution
 	- With both Cron or Windows Task Scheduler we will pass command line arguments to execute the python code.
-- 
+- Script
+
 ### Getting Started
+
 
