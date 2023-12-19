@@ -44,3 +44,12 @@ This section comprises five key components:
 - Most Used Third-Party Libraries and Why (3 min)
 - Data Extraction and Validation (18 min)
 - Scheduling and Executing Pipeline (5 min)
+
+### Past Speaking Experience
+ I spent 5 years as a Systems Trainer/Project Manager, teaching schools and non-technical users how to utilize SaaS products. I conducted training sessions at various private conferences focused on Education Technology.
+
+For the past three years, I've worked full-time as a backend Developer at Nelnet, a FinTech company. My primary focus has been Java-based IVR development. Recently, my work revolves around creating integrations between SaaS products, reporting, and data extractions.
+
+While I've only been using Python for about a year, I've found its tools to be incredibly useful for my tasks. Outside of work, I participated in and won a national hackathon, NFTHackvision, within the NFT Crypto space.
+
+This has been an opportunity for me to get myself in the Python community, which I've grown to deeply appreciate. 
