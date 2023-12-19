@@ -1,18 +1,18 @@
 ### Titles: 
-- **Data Taming in Shape-Shifting SaaS Realms: A Survival Guide for Developers**
+**Data Taming in Shape-Shifting SaaS Realms: A Survival Guide for Developers**
 
 ### Category: Community
 
 ### Duration: 30 minutes
 
 ## Audience:
-This session targets Python developers taking on roles in SaaS product data engineering or building custom extractions from SaaS providers.
+The targeted audience are  Python developers who are taking on roles in SaaS product data engineering or building custom extractions from SaaS providers.
 
 ## Prerequisite knowledge for this session:
-Familiarity with Python and third-party libraries like requests and pandas is recommended.
+Familiarity with Python and third-party libraries such as requests and pandas is recommended.
 
 ## Description:
-You work on a small project or maybe the compony you work for as partnered with a SaaS provider. You are tasked with extracting usage and client data from this system to be used down stream for analytics.
+You work on a small project or maybe the company you work for has partnered with a SaaS provider. You are tasked with extracting usage and client data from this system to be used down stream for analytics.
 Where do you start? What tools should you use? How do you get started?
 During this presentation I will discuss starting small, moving fast and about lessons I have learned during my career.
 
